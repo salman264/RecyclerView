@@ -43,7 +43,11 @@ public class MainActivity extends AppCompatActivity {
 
 
             modelFeed=new ModelFeed(3,24,34,R.drawable.user3,R.drawable.post3,
-                    "Ahmed", "2 hours");
+                    "Ahmed", "50 minutes");
+            modelFeedArrayList.add(modelFeed);
+
+            modelFeed=new ModelFeed(4,23,31,R.drawable.user4,R.drawable.post4,
+                    "Saim", "9 hours");
             modelFeedArrayList.add(modelFeed);
 
             adapter.notifyDataSetChanged();
