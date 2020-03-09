@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:layout_marginBottom="10dp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
@@ -36,6 +38,7 @@
                     android:textSize="14dp"
                     android:text="Saqib.py" />
                 <ImageButton
+                    android:id="@+id/dots"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:src="@drawable/ic_dots"
@@ -106,13 +109,14 @@
                  android:src="@drawable/user3"
                     />
                 <TextView
+                    android:id="@+id/likeby"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:textColor="@android:color/black"
                     android:text="Liked by"/>
                 <TextView
-                    android:id="@+id/liker_name"
+                    android:id="@+id/lik"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
@@ -137,6 +141,7 @@
                 app:civ_border_width="1dp"
                 app:civ_border_color="@android:color/darker_gray" />
             <TextView
+                android:id="@+id/addcom"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
@@ -146,6 +151,7 @@
                 android:text="Add a comment..."/>
         </RelativeLayout>
         <TextView
+            android:id="@+id/timee"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
